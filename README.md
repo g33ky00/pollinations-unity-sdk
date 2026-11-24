@@ -2,8 +2,41 @@
 
 [![OpenUPM](https://img.shields.io/npm/v/com.pollinations.unity)](https://openupm.com/packages/com.pollinations.unity)
 [![Quest](https://img.shields.io/badge/Quest-%2315580%20(FIXED)-blue)](https://github.com/pollinations/pollinations/issues/15580)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 C# package that lets Unity developers generate **text, images, and audio** with [Pollinations AI](https://pollinations.ai) inside their games and applications.
+
+## À propos
+
+Pollinations Unity SDK is a Unity Package Manager (UPM) package providing async clients for text, image, and audio generation through the Pollinations API, plus an OAuth 2.0 Device Flow helper for Bring Your Own Pollen (BYOP).
+
+## Structure
+
+```
+pollinations-unity-sdk/
+├── Runtime/
+│   ├── PollinationsClient.cs
+│   └── Auth/
+│       └── PollinationsAuth.cs
+├── Samples/
+│   └── SampleScene.unity
+├── Tests/
+│   └── PollinationsClientTests.cs
+├── .github/
+│   └── workflows/
+│       └── ci-unified.yml
+├── package.json
+├── CHANGELOG.md
+├── LICENSE
+└── README.md
+```
+
+## Stack
+
+- Unity 2021.3+
+- C# (.NET Standard 2.1)
+- UnityWebRequest (built-in)
+- NUnit (Unity Test Runner)
 
 ## Features
 
@@ -136,9 +169,13 @@ if (result.State == DeviceFlowState.Granted)
 
 Run the Unity Test Runner to verify the client against live endpoints using the provided test key.
 
-## License
+## Contribution
 
-MIT — see [CHANGELOG.md](CHANGELOG.md) for release notes.
+Contributions are welcome. Open an issue or pull request on the repository. Please keep changes focused and include tests when applicable.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE) for the full text. See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## Quest
 
