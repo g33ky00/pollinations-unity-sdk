@@ -35,6 +35,7 @@ pollinations-unity-sdk/
 
 ## Stack
 
+- Version 1.0.0 (`package.json`)
 - Unity 2021.3+
 - C# (.NET Standard 2.1)
 - UnityWebRequest (built-in)
