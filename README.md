@@ -1,5 +1,7 @@
 # Pollinations Unity SDK
 
+[![CI](https://github.com/g33ky00/pollinations-unity-sdk/actions/workflows/ci-unified.yml/badge.svg)](https://github.com/g33ky00/pollinations-unity-sdk/actions/workflows/ci-unified.yml)
+
 [![OpenUPM](https://img.shields.io/npm/v/com.pollinations.unity)](https://openupm.com/packages/com.pollinations.unity)
 [![Quest](https://img.shields.io/badge/Quest-%2315580%20(FIXED)-blue)](https://github.com/pollinations/pollinations/issues/15580)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -180,3 +182,15 @@ MIT — see [LICENSE](LICENSE) for the full text. See [CHANGELOG.md](CHANGELOG.m
 ## Quest
 
 This package fulfills [Quest #15580](https://github.com/pollinations/pollinations/issues/15580) — _[QUEST] Pollinations package for Unity_
+
+## About
+
+Projet maintenu par g33ky00.
+
+## Contributing
+
+Les contributions sont les bienvenues via pull request.
+
+## License
+
+MIT
