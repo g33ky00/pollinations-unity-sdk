@@ -8,8 +8,7 @@
 
 C# package that lets Unity developers generate **text, images, and audio** with [Pollinations AI](https://pollinations.ai) inside their games and applications.
 
-## À propos
-
+## About
 Pollinations Unity SDK is a Unity Package Manager (UPM) package providing async clients for text, image, and audio generation through the Pollinations API, plus an OAuth 2.0 Device Flow helper for Bring Your Own Pollen (BYOP).
 
 ## Structure
@@ -172,26 +171,12 @@ if (result.State == DeviceFlowState.Granted)
 
 Run the Unity Test Runner to verify the client against live endpoints using the provided test key.
 
-## Contribution
-
+## Contributing
 Contributions are welcome. Open an issue or pull request on the repository. Please keep changes focused and include tests when applicable.
 
-## Licence
-
+## License
 MIT — see [LICENSE](LICENSE) for the full text. See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## Quest
 
 This package fulfills [Quest #15580](https://github.com/pollinations/pollinations/issues/15580) — _[QUEST] Pollinations package for Unity_
-
-## About
-
-Projet maintenu par g33ky00.
-
-## Contributing
-
-Les contributions sont les bienvenues via pull request.
-
-## License
-
-MIT
