@@ -6,5 +6,5 @@
     "skipLibCheck": false,
     "noEmit": true
   },
-  "files": []
+  "include": ["**/*.ts"]
 }
