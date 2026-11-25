@@ -10,5 +10,7 @@
     "url": "https://github.com/g33ky00"
   },
   "license": "MIT",
-  "dependencies": {}
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
